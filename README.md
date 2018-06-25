@@ -1,1 +1,1 @@
-beru.dev
+beru_dev

@@ -1,0 +1,26 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Roboto';
+}
+
+@import "normalize";
+@import "../libs/bootstrap-4.1.0/scss/bootstrap-grid";
+@import "sections/header";
+@import "elements/btn";
+@import "sections/main-index";
+@import "sections/footer";
+@import "sections/main-about";
+@import "sections/main-brand-index";
+@import "sections/main-news";
+@import "sections/search";
+@import "sections/product";
+@import "sections/contacts";
+@import "sections/clients";
+
+
+
+
+

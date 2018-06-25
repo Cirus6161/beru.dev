@@ -1,0 +1,124 @@
+.top-footer{
+  background-color: #333333;
+  padding-top: 40px;
+  padding-bottom: 18px;
+}
+
+.logo-block--footer{
+  position: relative;
+  width: 78px;
+  margin-left: -11px;
+  span{
+    top: 37px;
+    position: absolute;
+    font-size: 11px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: condensed;
+    line-height: 1.15;
+    letter-spacing: normal;
+    text-align: left;
+    color: #818179;
+  }
+}
+
+.footer__item--description{
+  display: inline;
+  font-size: 13px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: condensed;
+  line-height: 1.23;
+  letter-spacing: -1px;
+  text-align: left;
+  color: #818179;
+}
+
+.footer-lists{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  ul{
+    margin-top: 0px;
+    padding: 0px;
+    list-style: none;
+    li{
+      font-size: 13px;
+      font-weight: bold;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.54;
+      letter-spacing: normal;
+      text-align: left;
+      color: #ffffff;
+    }
+  }
+}
+
+.footer-contacts{
+  margin-top: 3px;
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: condensed;
+  line-height: 1.14;
+  letter-spacing: normal;
+  text-align: left;
+  color: #818179;
+  margin-left: 18px;
+  span{
+    font-size: 12px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: condensed;
+    line-height: 1.15;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+    display: inline-block;
+    margin-top: 7px;
+  }
+}
+
+.footer-schedule{
+  margin-top: 2px;
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: condensed;
+  line-height: 1.14;
+  letter-spacing: normal;
+  text-align: left;
+  color: #818179;
+  margin-left: 13px;
+  span{
+    font-size: 12px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: condensed;
+    line-height: 1.60;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+    display: inline-block;
+    margin-top: 7px;
+  }
+}
+
+.bottom-footer{
+  background-color: #ba352b;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  overflow: hidden;
+}
+
+.copyright{
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: condensed;
+  line-height: 1.14;
+  letter-spacing: normal;
+  color: #ffffff;
+}

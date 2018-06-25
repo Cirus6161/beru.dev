@@ -1,0 +1,13 @@
+/*PRODUCT*/
+.slider-for {
+  display: inline-block;
+  border: 1px solid black; }
+
+.slider-nav {
+  display: inline-block;
+  border: 1px solid black; }
+
+.slick-slide img {
+  width: 100%; }
+
+/*!PRODUCT*/
