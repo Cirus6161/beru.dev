@@ -240,7 +240,7 @@
         <div class="row">
             <div class="col">
                 <div class="page-tittle autorisation-page-tittle">
-                    войти
+                    РЕГИСТРАЦИЯ
                 </div>
             </div>
         </div>
@@ -249,7 +249,7 @@
     <div class="container">
         <div class="row">
             <div class="col-6 autorisation-block">
-                <h2>Войти через соцсети</h2>
+                <h2>Регистрация через соцсети</h2>
                 <div class="autorisation-social">
                     <a href="" class="autorisation-social--item autorisation-social--item__google">google+</a>
                     <a href="" class="autorisation-social--item autorisation-social--item__facebook">facebook</a>
@@ -259,6 +259,12 @@
                 <form>
                     <div class="auto-form">
                         <ul>
+                            <li><span>Имя</span>
+                                <input type="text">
+                            </li>
+                            <li><span>Фамилия</span>
+                                <input type="text">
+                            </li>
                             <li><span>Email</span>
                                 <input type="email">
                             </li>
@@ -266,13 +272,33 @@
                                 <input type="password">
                             </li>
                         </ul>
-                        <a href="reset-password.html">Восстановить пароль</a>
-                        <input type="submit" value="Вход" class="btn btn--red btn--red__enter">
                     </div>
+                    <h3>Данные, которые упростять связь с Вами</h3>
+                    <div class="auto-form">
+                        <ul>
+                            <li><span>Телефон</span>
+                                <input type="text">
+                            </li>
+                            <li><span>Город</span>
+                                <input type="text">
+                            </li>
+                            <li><span>Компания</span>
+                                <input type="text">
+                            </li>
+                            <li><span>Адрес</span>
+                                <input type="text">
+                            </li>
+                        </ul>
+                    </div>
+                    <label class="checkbox-autorisation">
+                        <input type="checkbox">
+                        <span class="custom-checkbox-autorisation"></span>
+                        <span class="custom-checkbox-autorisation-text">Согласие на сбор и обработку личных данных</span>
+                    </label>
+                    <input type="submit" class="btn btn--red btn--red__registration" value="Зарегистрироваться">
                 </form>
-                    <div class="proposal-for-registration">
-                    <h2>ВПЕРВЫЕ У НАС?</h2><a href="registration.html">Зарегистрироваться</a>
-                </div>
+
+
             </div>
         </div>
     </div>
