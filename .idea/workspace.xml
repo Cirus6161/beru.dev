@@ -2,11 +2,239 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0572e51a-9244-40cb-8fc3-f5f1ad93f1ed" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/css/style.css" afterPath="$PROJECT_DIR$/app/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/product.html" afterPath="$PROJECT_DIR$/app/product.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scss/sections/autorisation.scss" afterPath="$PROJECT_DIR$/app/scss/sections/autorisation.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scss/sections/product.scss" afterPath="$PROJECT_DIR$/app/scss/sections/product.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/css/style.css" afterPath="$PROJECT_DIR$/dist/css/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/CONTRIBUTING.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/bin/_inc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/bin/build" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/bin/jquery.mmenu.addon-template.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/bin/variables" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/demo/advanced.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/demo/css/demo.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/demo/css/site.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/demo/default.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/demo/onepage.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/dist/addons/autoheight/jquery.mmenu.autoheight.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/dist/addons/autoheight/jquery.mmenu.autoheight.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/dist/addons/backbutton/jquery.mmenu.backbutton.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/dist/addons/columns/jquery.mmenu.columns.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/dist/addons/columns/jquery.mmenu.columns.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/dist/addons/counters/jquery.mmenu.counters.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/dist/addons/counters/jquery.mmenu.counters.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/dist/addons/dividers/jquery.mmenu.dividers.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/dist/addons/dividers/jquery.mmenu.dividers.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/dist/addons/drag/jquery.mmenu.drag.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/dist/addons/drag/jquery.mmenu.drag.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/dist/addons/dropdown/jquery.mmenu.dropdown.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/dist/addons/dropdown/jquery.mmenu.dropdown.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/dist/addons/fixedelements/jquery.mmenu.fixedelements.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/dist/addons/iconbar/jquery.mmenu.iconbar.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/dist/addons/iconbar/jquery.mmenu.iconbar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/dist/addons/iconpanels/jquery.mmenu.iconpanels.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/dist/addons/iconpanels/jquery.mmenu.iconpanels.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/dist/addons/keyboardnavigation/jquery.mmenu.keyboardnavigation.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/dist/addons/keyboardnavigation/jquery.mmenu.keyboardnavigation.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/dist/addons/lazysubmenus/jquery.mmenu.lazysubmenus.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/dist/addons/navbars/_jquery.mmenu.navbar.breadcrumbs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/dist/addons/navbars/_jquery.mmenu.navbar.close.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/dist/addons/navbars/_jquery.mmenu.navbar.next.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/dist/addons/navbars/_jquery.mmenu.navbar.prev.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/dist/addons/navbars/_jquery.mmenu.navbar.searchfield.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/dist/addons/navbars/_jquery.mmenu.navbar.tabs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/dist/addons/navbars/_jquery.mmenu.navbar.title.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/dist/addons/navbars/jquery.mmenu.navbars.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/dist/addons/navbars/jquery.mmenu.navbars.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/dist/addons/pagescroll/jquery.mmenu.pagescroll.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/dist/addons/rtl/jquery.mmenu.rtl.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/dist/addons/rtl/jquery.mmenu.rtl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/dist/addons/searchfield/jquery.mmenu.searchfield.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/dist/addons/searchfield/jquery.mmenu.searchfield.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/dist/addons/sectionindexer/jquery.mmenu.sectionindexer.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/dist/addons/sectionindexer/jquery.mmenu.sectionindexer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/dist/addons/setselected/jquery.mmenu.setselected.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/dist/addons/setselected/jquery.mmenu.setselected.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/dist/addons/sidebar/jquery.mmenu.sidebar.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/dist/addons/sidebar/jquery.mmenu.sidebar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/dist/addons/toggles/jquery.mmenu.toggles.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/dist/addons/toggles/jquery.mmenu.toggles.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/dist/core/offcanvas/jquery.mmenu.offcanvas.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/dist/core/offcanvas/jquery.mmenu.offcanvas.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/dist/core/oncanvas/jquery.mmenu.oncanvas.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/dist/core/oncanvas/jquery.mmenu.oncanvas.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/dist/core/screenreader/jquery.mmenu.screenreader.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/dist/core/screenreader/jquery.mmenu.screenreader.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/dist/core/scrollbugfix/jquery.mmenu.scrollbugfix.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/dist/extensions/borderstyle/jquery.mmenu.borderstyle.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/dist/extensions/effects/jquery.mmenu.effects.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/dist/extensions/fullscreen/jquery.mmenu.fullscreen.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/dist/extensions/listview/jquery.mmenu.listview.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/dist/extensions/multiline/jquery.mmenu.multiline.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/dist/extensions/pagedim/jquery.mmenu.pagedim.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/dist/extensions/popup/jquery.mmenu.popup.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/dist/extensions/positioning/jquery.mmenu.positioning.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/dist/extensions/shadows/jquery.mmenu.shadows.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/dist/extensions/themes/jquery.mmenu.themes.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/dist/extensions/tileview/jquery.mmenu.tileview.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/dist/jquery.mmenu.all.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/dist/jquery.mmenu.all.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/dist/jquery.mmenu.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/dist/jquery.mmenu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/dist/translations/de/jquery.mmenu.de.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/dist/translations/nl/jquery.mmenu.nl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/dist/wrappers/angular/jquery.mmenu.angular.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/dist/wrappers/bootstrap/jquery.mmenu.bootstrap3.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/dist/wrappers/bootstrap/jquery.mmenu.bootstrap4.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/dist/wrappers/jquerymobile/jquery.mmenu.jquerymobile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/dist/wrappers/magento/jquery.mmenu.magento.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/dist/wrappers/olark/jquery.mmenu.olark.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/dist/wrappers/turbolinks/jquery.mmenu.turbolinks.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/dist/wrappers/wordpress/jquery.mmenu.wordpress.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/gulpfile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/src/_build.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/src/_mixins.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/src/_variables.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/src/addons/autoheight/_variables.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/src/addons/autoheight/jquery.mmenu.autoheight.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/src/addons/autoheight/jquery.mmenu.autoheight.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/src/addons/backbutton/jquery.mmenu.backbutton.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/src/addons/columns/_mixins.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/src/addons/columns/_variables.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/src/addons/columns/jquery.mmenu.columns.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/src/addons/columns/jquery.mmenu.columns.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/src/addons/counters/_mixins.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/src/addons/counters/_variables.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/src/addons/counters/jquery.mmenu.counters.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/src/addons/counters/jquery.mmenu.counters.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/src/addons/dividers/_variables.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/src/addons/dividers/jquery.mmenu.dividers.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/src/addons/dividers/jquery.mmenu.dividers.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/src/addons/drag/_variables.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/src/addons/drag/jquery.mmenu.drag.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/src/addons/drag/jquery.mmenu.drag.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/src/addons/dropdown/_variables.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/src/addons/dropdown/jquery.mmenu.dropdown.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/src/addons/dropdown/jquery.mmenu.dropdown.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/src/addons/fixedelements/jquery.mmenu.fixedelements.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/src/addons/iconbar/_mixins.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/src/addons/iconbar/_variables.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/src/addons/iconbar/jquery.mmenu.iconbar.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/src/addons/iconbar/jquery.mmenu.iconbar.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/src/addons/iconpanels/_mixins.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/src/addons/iconpanels/_variables.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/src/addons/iconpanels/jquery.mmenu.iconpanels.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/src/addons/iconpanels/jquery.mmenu.iconpanels.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/src/addons/keyboardnavigation/_mixins.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/src/addons/keyboardnavigation/_variables.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/src/addons/keyboardnavigation/jquery.mmenu.keyboardnavigation.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/src/addons/keyboardnavigation/jquery.mmenu.keyboardnavigation.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/src/addons/lazysubmenus/jquery.mmenu.lazysubmenus.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/src/addons/navbars/_jquery.mmenu.navbar.breadcrumbs.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/src/addons/navbars/_jquery.mmenu.navbar.breadcrumbs.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/src/addons/navbars/_jquery.mmenu.navbar.close.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/src/addons/navbars/_jquery.mmenu.navbar.next.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/src/addons/navbars/_jquery.mmenu.navbar.prev.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/src/addons/navbars/_jquery.mmenu.navbar.searchfield.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/src/addons/navbars/_jquery.mmenu.navbar.tabs.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/src/addons/navbars/_jquery.mmenu.navbar.tabs.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/src/addons/navbars/_jquery.mmenu.navbar.title.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/src/addons/navbars/_mixins.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/src/addons/navbars/_variables.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/src/addons/navbars/jquery.mmenu.navbars.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/src/addons/navbars/jquery.mmenu.navbars.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/src/addons/pagescroll/jquery.mmenu.pagescroll.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/src/addons/rtl/_variables.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/src/addons/rtl/jquery.mmenu.rtl.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/src/addons/rtl/jquery.mmenu.rtl.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/src/addons/searchfield/_mixins.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/src/addons/searchfield/_variables.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/src/addons/searchfield/jquery.mmenu.searchfield.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/src/addons/searchfield/jquery.mmenu.searchfield.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/src/addons/searchfield/translations/jquery.mmenu.de.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/src/addons/searchfield/translations/jquery.mmenu.nl.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/src/addons/searchfield/translations/jquery.mmenu.ru.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/src/addons/sectionindexer/_mixins.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/src/addons/sectionindexer/_variables.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/src/addons/sectionindexer/jquery.mmenu.sectionindexer.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/src/addons/sectionindexer/jquery.mmenu.sectionindexer.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/src/addons/setselected/_mixins.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/src/addons/setselected/_variables.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/src/addons/setselected/jquery.mmenu.setselected.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/src/addons/setselected/jquery.mmenu.setselected.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/src/addons/sidebar/_mixins.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/src/addons/sidebar/_variables.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/src/addons/sidebar/jquery.mmenu.sidebar.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/src/addons/sidebar/jquery.mmenu.sidebar.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/src/addons/toggles/_mixins.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/src/addons/toggles/_variables.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/src/addons/toggles/jquery.mmenu.toggles.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/src/addons/toggles/jquery.mmenu.toggles.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/src/core/offcanvas/_mixins.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/src/core/offcanvas/_variables.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/src/core/offcanvas/jquery.mmenu.offcanvas.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/src/core/offcanvas/jquery.mmenu.offcanvas.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/src/core/oncanvas/_buttons.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/src/core/oncanvas/_listviews.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/src/core/oncanvas/_menu.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/src/core/oncanvas/_mixins.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/src/core/oncanvas/_navbars.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/src/core/oncanvas/_panels.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/src/core/oncanvas/_variables.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/src/core/oncanvas/_vertical.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/src/core/oncanvas/jquery.mmenu.oncanvas.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/src/core/oncanvas/jquery.mmenu.oncanvas.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/src/core/oncanvas/translations/jquery.mmenu.de.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/src/core/oncanvas/translations/jquery.mmenu.nl.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/src/core/oncanvas/translations/jquery.mmenu.ru.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/src/core/screenreader/_variables.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/src/core/screenreader/jquery.mmenu.screenreader.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/src/core/screenreader/jquery.mmenu.screenreader.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/src/core/screenreader/translations/jquery.mmenu.de.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/src/core/screenreader/translations/jquery.mmenu.nl.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/src/core/screenreader/translations/jquery.mmenu.ru.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/src/core/scrollbugfix/jquery.mmenu.scrollbugfix.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/src/extensions/borderstyle/_variables.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/src/extensions/borderstyle/jquery.mmenu.borderstyle.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/src/extensions/effects/_mixins.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/src/extensions/effects/_variables.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/src/extensions/effects/jquery.mmenu.effects.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/src/extensions/fullscreen/_variables.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/src/extensions/fullscreen/jquery.mmenu.fullscreen.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/src/extensions/listview/_mixins.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/src/extensions/listview/_variables.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/src/extensions/listview/jquery.mmenu.listview.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/src/extensions/multiline/_variables.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/src/extensions/multiline/jquery.mmenu.multiline.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/src/extensions/pagedim/_variables.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/src/extensions/pagedim/jquery.mmenu.pagedim.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/src/extensions/popup/_variables.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/src/extensions/popup/jquery.mmenu.popup.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/src/extensions/positioning/_mixins.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/src/extensions/positioning/_variables.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/src/extensions/positioning/jquery.mmenu.positioning.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/src/extensions/shadows/_mixins.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/src/extensions/shadows/_variables.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/src/extensions/shadows/jquery.mmenu.shadows.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/src/extensions/themes/_mixins.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/src/extensions/themes/_variables.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/src/extensions/themes/jquery.mmenu.themes.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/src/extensions/tileview/_variables.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/src/extensions/tileview/jquery.mmenu.tileview.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/src/jquery.mmenu.debugger.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/src/wrappers/angular/jquery.mmenu.angular.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/src/wrappers/bootstrap/jquery.mmenu.bootstrap3.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/src/wrappers/bootstrap/jquery.mmenu.bootstrap4.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/src/wrappers/jquerymobile/jquery.mmenu.jquerymobile.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/src/wrappers/magento/jquery.mmenu.magento.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/src/wrappers/olark/jquery.mmenu.olark.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/src/wrappers/turbolinks/jquery.mmenu.turbolinks.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jQuery.mmenu-master/src/wrappers/wordpress/jquery.mmenu.wordpress.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,40 +246,28 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="autorisation.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/scss/sections/autorisation.scss">
+      <file leaf-file-name="media-queries.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/scss/media-queries.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="250" column="20" lean-forward="false" selection-start-line="250" selection-start-column="20" selection-end-line="250" selection-end-column="20" />
+            <state relative-caret-position="238">
+              <caret line="14" column="53" lean-forward="true" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
               <folding>
-                <element signature="e#4780#5382#2" expanded="true" />
+                <element signature="e#416#3594#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="product.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/product.html">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="349">
-              <caret line="252" column="44" lean-forward="false" selection-start-line="252" selection-start-column="44" selection-end-line="252" selection-end-column="44" />
+            <state relative-caret-position="550">
+              <caret line="356" column="15" lean-forward="true" selection-start-line="356" selection-start-column="15" selection-end-line="356" selection-end-column="15" />
               <folding>
                 <element signature="n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#0;n#div#0;n#div#4;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#0;n#div#0;n#div#4;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="product.scss" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/scss/sections/product.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="12" lean-forward="false" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -74,7 +290,6 @@
         <option value="$PROJECT_DIR$/app/исходники/autorisation.html" />
         <option value="$PROJECT_DIR$/app/scss/main.scss" />
         <option value="$PROJECT_DIR$/app/scss/sections/main-index.scss" />
-        <option value="$PROJECT_DIR$/app/index.html" />
         <option value="$PROJECT_DIR$/app/news.html" />
         <option value="$PROJECT_DIR$/app/contacts.html" />
         <option value="$PROJECT_DIR$/app/reset-password.html" />
@@ -92,6 +307,7 @@
         <option value="$PROJECT_DIR$/app/scss/sections/autorisation.scss" />
         <option value="$PROJECT_DIR$/app/product.html" />
         <option value="$PROJECT_DIR$/app/scss/sections/product.scss" />
+        <option value="$PROJECT_DIR$/app/index.html" />
       </list>
     </option>
   </component>
@@ -167,28 +383,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="scss" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="beru.dev" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="beru.dev" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scss" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sections" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -299,15 +493,15 @@
       <updated>1530001630690</updated>
       <workItem from="1530001634953" duration="17048000" />
       <workItem from="1530086362345" duration="9406000" />
-      <workItem from="1530102753434" duration="1078000" />
+      <workItem from="1530102753434" duration="2115000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27532000" />
+    <option name="totallyTimeSpent" value="28569000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-16" y="0" width="1456" height="867" extended-state="0" />
+    <frame x="-16" y="0" width="1456" height="867" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25716332" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -406,7 +600,7 @@
         <state relative-caret-position="1445">
           <caret line="85" column="23" lean-forward="false" selection-start-line="85" selection-start-column="23" selection-end-line="85" selection-end-column="23" />
           <folding>
-            <element signature="e#4780#5382#2" expanded="true" />
+            <element signature="e#4780#5382#2" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -473,13 +667,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
           <caret line="435" column="20" lean-forward="false" selection-start-line="435" selection-start-column="20" selection-end-line="435" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="80" column="8" lean-forward="false" selection-start-line="80" selection-start-column="8" selection-end-line="144" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -585,21 +772,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/scss/media-queries.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="192" column="23" lean-forward="false" selection-start-line="192" selection-start-column="23" selection-end-line="192" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/scss/sections/autorisation.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="594">
           <caret line="250" column="20" lean-forward="false" selection-start-line="250" selection-start-column="20" selection-end-line="250" selection-end-column="20" />
           <folding>
-            <element signature="e#4780#5382#2" expanded="true" />
+            <element signature="e#4780#5382#2" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scss/sections/product.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="12" lean-forward="false" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -617,11 +804,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/scss/sections/product.scss">
+    <entry file="file://$PROJECT_DIR$/app/scss/media-queries.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="12" lean-forward="false" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
-          <folding />
+        <state relative-caret-position="238">
+          <caret line="14" column="53" lean-forward="true" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
+          <folding>
+            <element signature="e#416#3594#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="356" column="15" lean-forward="true" selection-start-line="356" selection-start-column="15" selection-end-line="356" selection-end-column="15" />
+          <folding>
+            <element signature="n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
