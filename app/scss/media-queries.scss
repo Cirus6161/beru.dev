@@ -1,3 +1,6 @@
+/*MEDIA-QUERIES*/
+
+
 // Extra small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) {
 
@@ -124,6 +127,72 @@
     font-size: 15px;
     margin-top: 60px;
   }
+
+
+  .brand-description-block p{
+    font-size: 13px;
+  }
+
+  .brand-logo-additions a{
+    font-size: 14px;
+  }
+
+  .news-block .news-item h3{
+    margin-top: -11px;
+  }
+
+  .news-block .news-item .news-item__text{
+    font-size: 13px;
+  }
+
+  .staff .staff-item h2{
+    font-size: 14px;
+  }
+
+  .staff .staff-item h3{
+    font-size: 12px;
+  }
+
+  .staff .staff-item ul{
+    font-size: 12px;
+    padding-bottom: 20px;
+  }
+
+  .staff-form form .great-staff-message{
+    width: 445px;
+  }
+
+  .footer-schedule span{
+    font-size: 11px;
+  }
+
+  .autorisation-page-tittle:after{
+    right: 435px;
+  }
+
+  .autorisation-block .autorisation-social .autorisation-social--item{
+    width: 136px;
+  }
+
+  .top-index__section--left h1 span{
+    font-size: 69px;
+  }
+
+  .top-index__section--img{
+    left: 10px;
+    position: absolute;
+    width: 86%;
+    top: 75px;
+  }
+
+  .sub-menu-items a{
+    font-size: 13px;
+  }
+
+  .sub-menu-items a li{
+    padding-left: 10px;
+  }
+
 }
 
 // Extra large devices (large desktops, 1200px and up)
@@ -131,3 +200,5 @@
 
 
 }
+
+/*!MEDIA-QUERIES*/

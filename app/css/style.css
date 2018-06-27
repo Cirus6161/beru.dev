@@ -3205,6 +3205,8 @@ main {
   border-left: solid 4px #ba352b;
   padding-left: 8px;
   padding-right: 8px; }
+  .brand-great-logo img {
+    width: 100%; }
 
 .brand-logo-additions {
   text-align: center;
@@ -3533,7 +3535,6 @@ main {
     border-right: solid 4px #ba352b;
     padding-left: 14px;
     padding-right: 14px;
-    margin-left: -15px;
     -ms-flex-preferred-size: 32.5%;
     flex-basis: 32.5%;
     margin-bottom: 35px; }
@@ -3940,6 +3941,9 @@ main {
     list-style: none;
     margin-bottom: 8px; }
 
+#subscribe_tab {
+  display: none; }
+
 /*!CLIENTS*/
 /*AUTORISATION*/
 .autorisation-page-tittle {
@@ -4188,6 +4192,7 @@ main {
   margin-bottom: 79px; }
 
 /*!REGISTRATION*/
+/*MEDIA-QUERIES*/
 @media (min-width: 992px) and (max-width: 1199.98px) {
   .contacts span {
     font-size: 14px;
@@ -4278,4 +4283,36 @@ main {
     font-size: 18px; }
   .managment .managment-item h3 {
     font-size: 15px;
-    margin-top: 60px; } }
+    margin-top: 60px; }
+  .brand-description-block p {
+    font-size: 13px; }
+  .brand-logo-additions a {
+    font-size: 14px; }
+  .news-block .news-item h3 {
+    margin-top: -11px; }
+  .news-block .news-item .news-item__text {
+    font-size: 13px; }
+  .staff .staff-item h2 {
+    font-size: 14px; }
+  .staff .staff-item h3 {
+    font-size: 12px; }
+  .staff .staff-item ul {
+    font-size: 12px;
+    padding-bottom: 20px; }
+  .staff-form form .great-staff-message {
+    width: 445px; }
+  .footer-schedule span {
+    font-size: 11px; }
+  .autorisation-page-tittle:after {
+    right: 435px; }
+  .autorisation-block .autorisation-social .autorisation-social--item {
+    width: 136px; }
+  .top-index__section--left h1 span {
+    font-size: 69px; }
+  .top-index__section--img {
+    left: 10px;
+    position: absolute;
+    width: 86%;
+    top: 75px; } }
+
+/*!MEDIA-QUERIES*/
