@@ -2604,17 +2604,27 @@ main {
 .relative_container {
   position: relative; }
 
+.brands-flex-col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+
 #brands-list:focus {
   background-color: #a02d25; }
 
 .brands {
+  left: 0px;
   display: none;
   position: absolute;
   z-index: 2;
   background-color: #fff; }
   .brands .brands-logo-items {
     padding-bottom: 44px;
-    padding-right: 43px;
+    padding-right: 28px;
     padding-top: 46px;
     padding-left: 28px;
     background-color: #fff;
@@ -2629,7 +2639,9 @@ main {
     -ms-flex-pack: justify;
     justify-content: space-between; }
     .brands .brands-logo-items a {
-      margin-right: 20px; }
+      margin-right: 20px;
+      -ms-flex-preferred-size: 15%;
+      flex-basis: 15%; }
       .brands .brands-logo-items a:last-child {
         margin-right: 0px; }
     .brands .brands-logo-items .brands-logo-item {
@@ -2641,12 +2653,14 @@ main {
       padding-left: 8px;
       padding-right: 8px; }
       .brands .brands-logo-items .brands-logo-item:hover img {
-        opacity: 1; }
+        opacity: 1;
+        width: 100%; }
       .brands .brands-logo-items .brands-logo-item img {
         -webkit-transition: 0.3s;
         -o-transition: 0.3s;
         transition: 0.3s;
-        opacity: 0.58; }
+        opacity: 0.58;
+        width: 100%; }
 
 .logo-brackets-left:before {
   left: -4px;
@@ -4174,3 +4188,94 @@ main {
   margin-bottom: 79px; }
 
 /*!REGISTRATION*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .contacts span {
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: condensed;
+    line-height: 1.19;
+    letter-spacing: normal;
+    text-align: left;
+    color: #444444;
+    margin-top: 3px;
+    display: inline-block; }
+  .schedule span {
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: condensed;
+    line-height: 1.19;
+    letter-spacing: normal;
+    text-align: left;
+    color: #444444;
+    margin-top: 3px;
+    display: inline-block; }
+  .top-header__btn--red {
+    padding: 13px 16px 14px;
+    margin-top: 24px; }
+  .btn {
+    font-size: 12px; }
+  .main-nav ul li a {
+    padding-bottom: 18px;
+    padding-left: 25px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.14;
+    letter-spacing: normal;
+    text-align: left;
+    padding-right: 25px;
+    padding-top: 20px; }
+  .top-header__btn--transparent {
+    margin-top: 24px;
+    margin-left: -15px;
+    color: #a02d25;
+    position: relative;
+    padding-left: 52px; }
+  .sub-nav {
+    background-color: #333333;
+    width: 565px;
+    height: 101.7%;
+    position: absolute;
+    left: -15px;
+    border-bottom: 12px solid #a02d25; }
+  .brands .brands-logo-items a {
+    margin-right: 15px; }
+  .descr-block h3 {
+    margin: 0px 20px;
+    line-height: 108px;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: condensed;
+    letter-spacing: normal;
+    text-align: center;
+    color: #444444; }
+  .about-us-block {
+    margin-top: 72px;
+    margin-left: 27px;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.38;
+    letter-spacing: normal;
+    text-align: left;
+    color: #444444; }
+  .advantages .advantages-item {
+    -ms-flex-preferred-size: 48%;
+    flex-basis: 47%;
+    margin-bottom: 23px; }
+  .advantages .advantages-item .adv-item-content {
+    font-size: 14px; }
+  .adv-item-content--list li {
+    font-size: 14px; }
+  .item-great-tittle {
+    font-size: 18px; }
+  .managment .managment-item h3 {
+    font-size: 15px;
+    margin-top: 60px; } }

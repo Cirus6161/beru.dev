@@ -385,26 +385,40 @@ main{
   position: relative;
 }
 
+.brands-flex-col{
+  display: flex;
+  flex-direction: column;
+}
+
 #brands-list:focus{
   background-color: #a02d25;
 }
 
-.brands{
+.brands {
+  left: 0px;
   display: none;
   position: absolute;
   z-index: 2;
   background-color: #fff;
-  .brands-logo-items{
+  .brands-logo-items {
     padding-bottom: 44px;
-    padding-right: 43px;
+    padding-right: 28px;
     padding-top: 46px;
     padding-left: 28px;
     background-color: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
     flex-direction: row;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
     a{
       margin-right: 20px;
+      flex-basis: 15%;
       &:last-child{
         margin-right: 0px;
       }
@@ -419,10 +433,12 @@ main{
       padding-right: 8px;
       &:hover img{
         opacity: 1;
+        width: 100%;
       }
       img{
         transition: 0.3s;
         opacity: 0.58;
+        width: 100%;
       }
     }
   }
