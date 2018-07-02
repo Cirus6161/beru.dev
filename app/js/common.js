@@ -61,3 +61,12 @@ $('.slider-nav').slick({
     verticalSwiping: true
 });
 /*!SLICK-SLIDER*/
+
+
+/*MY-MENU*/
+
+$("#my-menu").mmenu({
+
+});
+
+/*!MY-MENU*/
