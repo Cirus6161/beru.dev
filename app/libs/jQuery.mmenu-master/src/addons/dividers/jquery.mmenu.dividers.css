@@ -4,6 +4,8 @@
  */
 .mm-listitem_divider {
   opacity: 1;
+  -webkit-transition: opacity 0.4s ease;
+  -o-transition: opacity 0.4s ease;
   transition: opacity 0.4s ease; }
 
 .mm-menu_dividers-light .mm-listitem_divider {
@@ -25,7 +27,10 @@
   left: 0;
   right: 0;
   z-index: 10;
+  -webkit-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
   transform: translate(0, 0);
+  -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0); }
   .mm-listview_fixeddivider:after {
     content: none !important;
@@ -33,5 +38,3 @@
 
 .mm-panel_dividers .mm-listview_fixeddivider {
   display: block; }
-
-/*# sourceMappingURL=jquery.mmenu.dividers.css.map */

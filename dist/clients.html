@@ -44,7 +44,7 @@
                 <a href="" class="btn btn--red top-header__btn--red">Заказать звонок</a>
             </div>
             <div class="col-2">
-                <a href="" class="btn btn--transparent top-header__btn--transparent"><img src="img/man-user%20(1).svg" class="author-img">Авторизация</a>
+                <a href="autorisation.html" class="btn btn--transparent top-header__btn--transparent"><img src="img/man-user%20(1).svg" class="author-img">Авторизация</a>
             </div>
         </div>
     </div>
@@ -82,7 +82,7 @@
     <div class="container relative_container">
         <div class="brands">
             <div class="row">
-                <div class="col">
+                <div class="col brands-flex-col">
                     <div class="brands-logo-items">
                         <a href="brand-index.html">
                             <div class="brands-logo-item">
@@ -127,8 +127,6 @@
                             </div>
                         </a>
                     </div>
-                </div>
-                <div class="col">
                     <div class="brand-block-text">
                         Торговый Дом «БЕРУ» является эксклюзивным представителем торговой марки «Nova Bright» в
                         России и странах СНГ. В США бренд «Nova Bright» известная и уважаемая торговая марка.
@@ -139,9 +137,11 @@
                         товаров «Li-Sa», «IROKA», автомобильный инструмент «KingRoy».
                     </div>
                 </div>
+
             </div>
         </div>
     </div>
+
     <!--!BRANDS-->
 
     <!--CATALOG-->
@@ -366,9 +366,26 @@
             </div>
         </div>
         <div id="subscribe_tab" class="subscribe tabs-tab-body">
-            <form>
-
-            </form>
+            <div class="col-6 autorisation-block">
+                <form class="reset-password--form">
+                    <div class="auto-form">
+                        <ul>
+                            <li><span>Телефон</span>
+                                <input type="tel" class="reset-password">
+                            </li>
+                            <li><span>Email</span>
+                                <input type="email" class="reset-password">
+                            </li>
+                        </ul>
+                    </div>
+                    <label class="checkbox-autorisation">
+                        <input type="checkbox">
+                        <span class="custom-checkbox-autorisation"></span>
+                        <span class="custom-checkbox-autorisation-text">Согласие на сбор и обработку личных данных</span>
+                    </label>
+                    <input type="submit" class="btn btn--red btn--red__enter" value="Подписаться на новости">
+                </form>
+            </div>
         </div>
     </div>
 

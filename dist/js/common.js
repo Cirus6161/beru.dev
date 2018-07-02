@@ -61,3 +61,33 @@ $('.slider-nav').slick({
     verticalSwiping: true
 });
 /*!SLICK-SLIDER*/
+
+
+/*MY-MENU*/
+
+$("#my-menu").mmenu({
+
+    onClick: {
+        close: true,
+        setSelected : false,
+        preventDefault:false
+    },
+    "extensions": [
+        "pagedim-black",
+        "position-right",
+        "theme-dark"
+    ]
+});
+
+var api = $('#my-menu').data('mmenu');
+
+api.bind('open:start', function() {
+    $('.hamburger').addClass('is-active');
+
+});
+api.bind('close:finish', function() {
+    $('.hamburger').removeClass('is-active');
+});
+
+
+/*!MY-MENU*/
