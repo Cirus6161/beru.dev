@@ -60,6 +60,16 @@ $('.slider-nav').slick({
     vertical: true,
     verticalSwiping: true
 });
+
+    /*adaptive-slider*/
+
+$().slick({
+});
+
+
+    /*!adaptive-slider*/
+
+
 /*!SLICK-SLIDER*/
 
 
@@ -75,7 +85,8 @@ $("#my-menu").mmenu({
     "extensions": [
         "pagedim-black",
         "position-right",
-        "theme-dark"
+        "theme-black",
+        "position-front"
     ]
 });
 
@@ -91,3 +102,9 @@ api.bind('close:finish', function() {
 
 
 /*!MY-MENU*/
+
+/*NICE-SCROLL*/
+
+
+
+/*!NICE-SCROLL*/

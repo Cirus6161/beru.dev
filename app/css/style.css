@@ -2832,6 +2832,65 @@ main {
   display: none; }
 
 /*!CATALOG-DIV*/
+/*MMENU-STYLES*/
+.mmenu-btn {
+  display: inline-block !important;
+  position: relative;
+  border: solid 2px #ffffff;
+  border-radius: 3px;
+  color: #fff; }
+  .mmenu-btn:hover {
+    border: solid 2px #ba352b;
+    background-color: #a02d25; }
+
+.mmenu-btn__order--call {
+  padding: 20px 79px !important;
+  margin-left: 15px !important; }
+
+.mmenu-btn__autorisation {
+  margin-left: 15px !important; }
+  .mmenu-btn__autorisation:hover .cls-1 {
+    fill: #fff !important; }
+
+.mm-listitem:first-child {
+  padding-bottom: 40px; }
+
+.mm-listitem {
+  color: #fff; }
+  .mm-listitem a {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 16px; }
+    .mm-listitem a:hover {
+      background-color: #a02d25; }
+
+.mm-menu_offcanvas {
+  width: 87%;
+  min-width: 140px;
+  max-width: 667px; }
+
+.mmenu-btn__autorisation {
+  padding-top: 20px !important;
+  padding-bottom: 20px !important;
+  padding-left: 106px !important;
+  padding-right: 80px !important; }
+
+.mm-panel_has-navbar .mm-navbar {
+  display: none; }
+
+.author-svg {
+  top: 17px;
+  position: absolute;
+  left: 80px; }
+
+.mm-menu_offcanvas.mm-menu_opened {
+  border-left: 1px solid #707070; }
+
+.mm-listitem:after {
+  left: 0px;
+  border-bottom-style: dotted; }
+
+/*!MMENU-STYLES*/
 .top-footer {
   background-color: #333333;
   padding-top: 40px;
