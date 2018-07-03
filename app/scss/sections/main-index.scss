@@ -701,10 +701,19 @@ main{
   border-bottom-style: dotted;
 }
 
-
-
-
-
 /*!MMENU-STYLES*/
 
+
+/*ADAPTIVE-SLIDERS*/
+
+.brands-adaptive-slider{
+  display: none;
+}
+
+.brands-wrapper{
+  display: flex;
+  flex-direction: row;
+}
+
+/*!ADAPTIVE-SLIDERS*/
 

@@ -5,6 +5,24 @@
 @media (max-width: 575.98px) {
   /*INDEX*/
 
+  .mmenu-btn__autorisation {
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+    padding-left: 77px !important;
+    padding-right: 80px !important;
+  }
+
+  .mmenu-btn__order--call {
+    padding: 20px 65px !important;
+    margin-left: 15px !important;
+  }
+
+  .author-svg {
+    top: 18px;
+    position: absolute;
+    left: 52px;
+  }
+
   .contacts{
     display: none;
   }
@@ -26,20 +44,20 @@
 
   .logo-block {
     margin-left: 0px;
-    width: 216px;
-    margin-top: 31px;
-    margin-bottom: 36px;
+    width: 124px;
+    margin-top: 19px;
+    margin-bottom: 13px;
   }
 
   .hamburger{
     position: absolute;
     display: block;
-    top: -114px;
-    right: 20px;
+    top: -63px;
+    right: 12px;
     border-radius: 3px;
     background-color: #a02d25;
     border: solid 3px #ba352b;
-    padding: 10px 12px;
+    padding: 4px 6px;
   }
 
   .hamburger--elastic.is-active .hamburger-inner{
@@ -51,8 +69,8 @@
   }
 
   .hamburger-box {
-    width: 70px;
-    height: 41px;
+    width: 42px;
+    height: 28px;
     display: inline-block;
     position: relative;
   }
@@ -62,49 +80,49 @@
   }
 
   .hamburger--elastic .hamburger-inner::before{
-    top: 18px;
+    top: 11px;
   }
 
   .hamburger--elastic .hamburger-inner::after{
-    top: 37px;
+    top: 23px;
   }
 
   .hamburger-inner, .hamburger-inner::before, .hamburger-inner::after{
     background-color: #fff;
     border-radius: 0px;
     height: 2px;
-    width: 68px;
+    width: 41px;
   }
 
   .search{
     flex-basis: 100%;
     margin-right: 19px;
-    margin-top: 12px;
+    margin-top: 7px;
     margin-left: 20px;
-    margin-bottom: 12px;
+    margin-bottom: 7px;
   }
 
   .search form button {
-    height: 38px;
-    width: 37px;
+    height: 24px;
+    width: 22px;
     position: absolute;
-    top: 16px;
-    right: 16px;
+    top: 8px;
+    right: 9px;
     background-repeat: no-repeat;
     background-size: cover;
   }
 
   .search form input{
-    height: 70px;
+    height: 41px;
     padding-left: 19px;
-    font-size: 20px;
+    font-size: 14px;
     color: #707070;
   }
 
-  .search-input::-webkit-input-placeholder {color: #707070!important; font-size: 20px!important;}/* webkit */
-  .search-input::-moz-placeholder          {color: #707070!important; font-size: 20px!important;}/* Firefox 19+ */
-  .search-input:-moz-placeholder           {color: #707070!important; font-size: 20px!important;}/* Firefox 18- */
-  .search-input:-ms-input-placeholder      {color: #707070!important; font-size: 20px!important;}/* IE */
+  .search-input::-webkit-input-placeholder {color: #707070!important; font-size: 14px!important;}/* webkit */
+  .search-input::-moz-placeholder          {color: #707070!important; font-size: 14px!important;}/* Firefox 19+ */
+  .search-input:-moz-placeholder           {color: #707070!important; font-size: 14px!important;}/* Firefox 18- */
+  .search-input:-ms-input-placeholder      {color: #707070!important; font-size: 14px!important;}/* IE */
 
   #parallelogram3 {
     z-index: 50;
@@ -335,14 +353,14 @@
 
   .logo-block--footer {
     position: relative;
-    width: 118px;
-    margin-top: 24px;
+    width: 65px;
+    margin-top: -2px;
     margin-left: 0px;
   }
 
   .footer__item--description {
     display: block;
-    font-size: 17px;
+    font-size: 11px;
     font-weight: normal;
     font-style: normal;
     font-stretch: condensed;
@@ -350,13 +368,12 @@
     letter-spacing: -1px;
     text-align: left;
     color: #818179;
-    margin-top: 26px;
+    margin-top: 0px;
   }
 
   .logo-block--footer span {
-    top: 56px;
     position: absolute;
-    font-size: 17px;
+    font-size: 9px;
     font-weight: normal;
     font-style: normal;
     font-stretch: condensed;
@@ -364,20 +381,21 @@
     letter-spacing: normal;
     text-align: left;
     color: #818179;
+    top: 34px;
   }
 
   .footer-lists{
-    margin-top: 70px;
+    margin-top: 34px;
   }
 
   .footer-lists ul li{
-    font-size: 22px;
-    margin-bottom: 23px;
+    font-size: 12px;
+    margin-bottom: 17px;
   }
 
   .footer-contacts {
-    margin-top: 51px;
-    font-size: 21px;
+    margin-top: 22px;
+    font-size: 12px;
     font-weight: normal;
     font-style: normal;
     font-stretch: condensed;
@@ -387,26 +405,140 @@
     color: #818179;
     margin-left: 0px;
     span{
-      font-size: 20px;
-      margin-top: 13px;
+      font-size: 11px;
+      margin-top: 9px;
     }
   }
 
   .footer-schedule{
-    margin-top: 17px;
-    font-size: 20px;
+    margin-top: 2px;
+    font-size: 12px;;
     margin-left: 0px;
     span{
-      font-size: 20px;
-      margin-top: 10px;
+      font-size: 11px;
+      margin-top: 6px;
     }
   }
-
-
-
-
-
   /*!INDEX*/
+
+  /*CLIENTS*/
+
+  .breadcrumbs-list {
+    margin-left: 0px;
+    list-style: none;
+    padding: 0px;
+    margin-top: 4px;
+  }
+
+  .page-tittle{
+    margin-left: 0px;
+    margin-top: 11px;
+  }
+
+  .tabs-flex{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .gray-section{
+    height: 100%;
+  }
+
+  .gray-section--clients{
+    padding-top: 12px;
+    padding-bottom: 0px;
+  }
+
+  .gray-section--clients a{
+    margin-right: 0px;
+    margin-bottom: 15px
+  }
+
+  .delivery h2 {
+    margin-top: 32px;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.19;
+    letter-spacing: normal;
+    text-align: left;
+    color: #333333;
+    margin-bottom: 11px;
+  }
+
+  .autorisation-block .auto-form{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .delivery{
+    margin-bottom: 38px;
+  }
+
+  .terms-of-cooperation h2 {
+    margin-bottom: 11px;
+    margin-top: -3px;
+    font-size: 15px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.19;
+    letter-spacing: normal;
+    text-align: left;
+    color: #333333;
+  }
+
+  .terms-of-cooperation h3 {
+    margin-top: 16px;
+    margin-bottom: 14px;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.19;
+    letter-spacing: normal;
+    text-align: left;
+    color: #333333;
+  }
+
+  .terms-of-cooperation p{
+    margin-top: 9px;
+    font-size: 14px;
+  }
+
+  .terms-of-cooperation h2{
+    text-align: left;
+  }
+
+  terms-of-cooperation--bottom__h2{
+    text-align: center;
+  }
+
+  .terms-of-cooperation--bottom__flex{
+    flex-wrap: wrap;
+  }
+
+  .terms-of-cooperation--bottom__flex .terms-of-cooperation--bottom--item{
+    flex-basis: 100%;
+    margin-left: 0px!important;
+    margin-top: 0px;
+    margin-bottom: 55px;
+  }
+
+  .terms-of-cooperation--bottom__flex .terms-of-cooperation--bottom--item h2{
+    font-size: 16px;
+  }
+
+  .terms-of-cooperation--bottom__flex .terms-of-cooperation--bottom--item ul{
+    font-size: 14px;
+  }
+
+  .terms-of-cooperation--bottom__h2{
+    text-align: center!important;
+  }
+
+  /*!CLIENTS*/
 
 }
 
@@ -414,6 +546,24 @@
 @media (min-width: 576px) and (max-width: 767.98px) {
   /*INDEX*/
 
+  .mmenu-btn__autorisation {
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+    padding-left: 77px !important;
+    padding-right: 80px !important;
+  }
+
+  .mmenu-btn__order--call {
+    padding: 20px 65px !important;
+    margin-left: 15px !important;
+  }
+
+  .author-svg {
+    top: 18px;
+    position: absolute;
+    left: 52px;
+  }
+
   .contacts{
     display: none;
   }
@@ -435,20 +585,20 @@
 
   .logo-block {
     margin-left: 0px;
-    width: 216px;
-    margin-top: 31px;
-    margin-bottom: 36px;
+    width: 124px;
+    margin-top: 19px;
+    margin-bottom: 13px;
   }
 
   .hamburger{
     position: absolute;
     display: block;
-    top: -114px;
-    right: 20px;
+    top: -63px;
+    right: 12px;
     border-radius: 3px;
     background-color: #a02d25;
     border: solid 3px #ba352b;
-    padding: 10px 12px;
+    padding: 4px 6px;
   }
 
   .hamburger--elastic.is-active .hamburger-inner{
@@ -460,8 +610,8 @@
   }
 
   .hamburger-box {
-    width: 70px;
-    height: 41px;
+    width: 42px;
+    height: 28px;
     display: inline-block;
     position: relative;
   }
@@ -471,49 +621,49 @@
   }
 
   .hamburger--elastic .hamburger-inner::before{
-    top: 18px;
+    top: 11px;
   }
 
   .hamburger--elastic .hamburger-inner::after{
-    top: 37px;
+    top: 23px;
   }
 
   .hamburger-inner, .hamburger-inner::before, .hamburger-inner::after{
     background-color: #fff;
     border-radius: 0px;
     height: 2px;
-    width: 68px;
+    width: 41px;
   }
 
   .search{
     flex-basis: 100%;
     margin-right: 19px;
-    margin-top: 12px;
+    margin-top: 7px;
     margin-left: 20px;
-    margin-bottom: 12px;
+    margin-bottom: 7px;
   }
 
   .search form button {
-    height: 38px;
-    width: 37px;
+    height: 24px;
+    width: 22px;
     position: absolute;
-    top: 16px;
-    right: 16px;
+    top: 8px;
+    right: 9px;
     background-repeat: no-repeat;
     background-size: cover;
   }
 
   .search form input{
-    height: 70px;
+    height: 41px;
     padding-left: 19px;
-    font-size: 20px;
+    font-size: 14px;
     color: #707070;
   }
 
-  .search-input::-webkit-input-placeholder {color: #707070!important; font-size: 20px!important;}/* webkit */
-  .search-input::-moz-placeholder          {color: #707070!important; font-size: 20px!important;}/* Firefox 19+ */
-  .search-input:-moz-placeholder           {color: #707070!important; font-size: 20px!important;}/* Firefox 18- */
-  .search-input:-ms-input-placeholder      {color: #707070!important; font-size: 20px!important;}/* IE */
+  .search-input::-webkit-input-placeholder {color: #707070!important; font-size: 14px!important;}/* webkit */
+  .search-input::-moz-placeholder          {color: #707070!important; font-size: 14px!important;}/* Firefox 19+ */
+  .search-input:-moz-placeholder           {color: #707070!important; font-size: 14px!important;}/* Firefox 18- */
+  .search-input:-ms-input-placeholder      {color: #707070!important; font-size: 14px!important;}/* IE */
 
   #parallelogram3 {
     z-index: 50;
@@ -744,14 +894,14 @@
 
   .logo-block--footer {
     position: relative;
-    width: 118px;
-    margin-top: 24px;
+    width: 65px;
+    margin-top: -2px;
     margin-left: 0px;
   }
 
   .footer__item--description {
     display: block;
-    font-size: 17px;
+    font-size: 11px;
     font-weight: normal;
     font-style: normal;
     font-stretch: condensed;
@@ -759,13 +909,12 @@
     letter-spacing: -1px;
     text-align: left;
     color: #818179;
-    margin-top: 26px;
+    margin-top: 0px;
   }
 
   .logo-block--footer span {
-    top: 56px;
     position: absolute;
-    font-size: 17px;
+    font-size: 9px;
     font-weight: normal;
     font-style: normal;
     font-stretch: condensed;
@@ -773,20 +922,21 @@
     letter-spacing: normal;
     text-align: left;
     color: #818179;
+    top: 34px;
   }
 
   .footer-lists{
-    margin-top: 70px;
+    margin-top: 34px;
   }
 
   .footer-lists ul li{
-    font-size: 22px;
-    margin-bottom: 23px;
+    font-size: 12px;
+    margin-bottom: 17px;
   }
 
   .footer-contacts {
-    margin-top: 51px;
-    font-size: 21px;
+    margin-top: 22px;
+    font-size: 12px;
     font-weight: normal;
     font-style: normal;
     font-stretch: condensed;
@@ -796,26 +946,140 @@
     color: #818179;
     margin-left: 0px;
     span{
-      font-size: 20px;
-      margin-top: 13px;
+      font-size: 11px;
+      margin-top: 9px;
     }
   }
 
   .footer-schedule{
-    margin-top: 17px;
-    font-size: 20px;
+    margin-top: 2px;
+    font-size: 12px;;
     margin-left: 0px;
     span{
-      font-size: 20px;
-      margin-top: 10px;
+      font-size: 11px;
+      margin-top: 6px;
     }
   }
-
-
-
-
-
   /*!INDEX*/
+
+  /*CLIENTS*/
+
+  .breadcrumbs-list {
+    margin-left: 0px;
+    list-style: none;
+    padding: 0px;
+    margin-top: 4px;
+  }
+
+  .page-tittle{
+    margin-left: 0px;
+    margin-top: 11px;
+  }
+
+  .tabs-flex{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .gray-section{
+    height: 100%;
+  }
+
+  .gray-section--clients{
+    padding-top: 12px;
+    padding-bottom: 0px;
+  }
+
+  .gray-section--clients a{
+    margin-right: 0px;
+    margin-bottom: 15px
+  }
+
+  .delivery h2 {
+    margin-top: 32px;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.19;
+    letter-spacing: normal;
+    text-align: left;
+    color: #333333;
+    margin-bottom: 11px;
+  }
+
+  .autorisation-block .auto-form{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .delivery{
+    margin-bottom: 38px;
+  }
+
+  .terms-of-cooperation h2 {
+    margin-bottom: 11px;
+    margin-top: -3px;
+    font-size: 15px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.19;
+    letter-spacing: normal;
+    text-align: left;
+    color: #333333;
+  }
+
+  .terms-of-cooperation h3 {
+    margin-top: 16px;
+    margin-bottom: 14px;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.19;
+    letter-spacing: normal;
+    text-align: left;
+    color: #333333;
+  }
+
+  .terms-of-cooperation p{
+    margin-top: 9px;
+    font-size: 14px;
+  }
+
+  .terms-of-cooperation h2{
+    text-align: left;
+  }
+
+  terms-of-cooperation--bottom__h2{
+    text-align: center;
+  }
+
+  .terms-of-cooperation--bottom__flex{
+    flex-wrap: wrap;
+  }
+
+  .terms-of-cooperation--bottom__flex .terms-of-cooperation--bottom--item{
+    flex-basis: 100%;
+    margin-left: 0px!important;
+    margin-top: 0px;
+    margin-bottom: 55px;
+  }
+
+  .terms-of-cooperation--bottom__flex .terms-of-cooperation--bottom--item h2{
+    font-size: 16px;
+  }
+
+  .terms-of-cooperation--bottom__flex .terms-of-cooperation--bottom--item ul{
+    font-size: 14px;
+  }
+
+  .terms-of-cooperation--bottom__h2{
+    text-align: center!important;
+  }
+
+  /*!CLIENTS*/
 }
 
 // Medium devices (tablets, 768px and up)
@@ -1150,6 +1414,160 @@
   }
 
   /*!INDEX*/
+
+
+
+
+
+
+  /*BRANDS*/
+
+  .brands-wrapper{
+    display: none;
+  }
+
+  .brands-adaptive-slider{
+    display: block;
+  }
+
+  /*!BRANDS*/
+
+
+
+
+
+
+  /*CLIENTS*/
+
+  .breadcrumbs-list{
+    margin-top: 5px;
+
+  }
+
+  .page-tittle {
+    margin-left: -12px;
+    margin-top: 22px;
+    font-size: 24px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.2;
+    text-align: left;
+    color: #333333;
+    margin-bottom: 34px;
+  }
+
+  .gray-section--clients a {
+    margin-top: 11px;
+    cursor: pointer;
+    width: 335px;
+    padding-right: 33px;
+    padding-left: 19px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    display: inline-block;
+    font-size: 17px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.47;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ba352b;
+    border: solid 1px #ba352b;
+    text-decoration: none;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    margin-right: 0px;
+    margin-bottom: 14px;
+  }
+
+  .tabs-flex{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .gray-section {
+    width: 100%;
+    height: 192px;
+    background-color: #f9f9f9;
+    margin-bottom: 46px;
+  }
+
+  .terms-of-cooperation h2{
+    font-size: 18px;
+    margin-bottom: 24px;
+  }
+
+  .terms-of-cooperation h3{
+    margin-bottom: 27px;
+  }
+
+  .terms-of-cooperation p{
+    margin-bottom: 25px;
+    font-size: 18px;
+  }
+
+  .terms-of-cooperation span {
+    font-weight: bold;
+    display: block;
+    margin-top: 28px;
+    font-size: 18px;
+    margin-bottom: 25px;
+  }
+
+  .terms-of-cooperation--bottom__flex{
+    flex-wrap: wrap;
+  }
+
+  .terms-of-cooperation--bottom__flex .terms-of-cooperation--bottom--item{
+    flex-basis: 100%;
+  }
+
+  .terms-of-cooperation--bottom__h2{
+    font-size: 24px!important;
+  }
+
+  .terms-of-cooperation--bottom__flex .terms-of-cooperation--bottom--item{
+    margin-top: 8px;
+    margin-bottom: 34px;
+  }
+
+  .terms-of-cooperation--bottom__flex .terms-of-cooperation--bottom--item h2{
+    font-size: 23px;
+    margin-top: 8px;
+  }
+
+  .terms-of-cooperation--bottom__flex .terms-of-cooperation--bottom--item ul{
+    font-size: 20px;
+  }
+
+  .terms-of-cooperation--bottom{
+    margin-bottom: 37px;
+  }
+
+  .delivery h2{
+    font-size: 19px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+  }
+
+  .delivery h3{
+    margin-bottom: 24px;
+    font-size: 19px;
+  }
+
+  .delivery p{
+    font-size: 18px;
+  }
+
+
+  /*!CLIENTS*/
+
+
 
 
 }
