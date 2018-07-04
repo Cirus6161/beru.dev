@@ -58,8 +58,26 @@ $('.slider-nav').slick({
     dots: false,
     focusOnSelect: true,
     vertical: true,
-    verticalSwiping: true
+    verticalSwiping: true,
+    responsive:[
+        {
+            breakpoint: 768,
+            settings: {
+                slidesToShow: 4,
+                slidesToScroll: 1,
+                asNavFor: '.slider-for',
+                dots: false,
+                focusOnSelect: true,
+                vertical: false,
+                verticalSwiping: true,
+        }}
+    ]
 });
+
+
+
+
+
 
     /*adaptive-slider*/
 
@@ -102,6 +120,9 @@ api.bind('open:start', function() {
 api.bind('close:finish', function() {
     $('.hamburger').removeClass('is-active');
 });
+
+
+
 
 
 /*!MY-MENU*/
