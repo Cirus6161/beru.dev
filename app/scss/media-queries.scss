@@ -686,6 +686,80 @@
 
   /*!CATALOG*/
 
+  /*NEWS*/
+
+  .news-block{
+    display: none;
+  }
+
+  .news-block-slider{
+    display: block;
+  }
+
+  .news-block-slider{
+    width: 275px;
+    margin: 0 auto;
+    .news-item{
+      position: relative;
+      margin-bottom: 17px;
+      .news-item__text{
+        margin-top: 25px;
+        font-size: 15px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.33;
+        letter-spacing: normal;
+        text-align: left;
+        color: #333333;
+      }
+      span{
+        margin-top: 23px;
+        display: inline-block;
+        font-size: 10px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.1;
+        letter-spacing: normal;
+        text-align: left;
+        color: #8d8d8d;
+      }
+      h3{
+        top: 180px;
+        position: absolute;
+        display: inline-block;
+        font-size: 16px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: condensed;
+        line-height: 1.19;
+        letter-spacing: -1px;
+        text-align: right;
+        color: #a02d25;
+        right: 0px;
+      }
+      img{
+        display: inline-block;
+        width: 100%;
+      }
+    }
+  }
+
+  .more-ads {
+    text-align: center;
+    margin-bottom: 13px;
+  }
+
+  .gray-section {
+    width: 100%;
+    height: 17px!important;
+    background-color: #f9f9f9;
+    margin-bottom: 25px;
+  }
+
+  /*!NEWS*/
+
 
 
 }
@@ -1378,6 +1452,80 @@
   }
 
   /*!CATALOG*/
+
+  /*NEWS*/
+
+  .news-block{
+    display: none;
+  }
+
+  .news-block-slider{
+    display: block;
+  }
+
+  .news-block-slider{
+    width: 275px;
+    margin: 0 auto;
+    .news-item{
+      position: relative;
+      margin-bottom: 17px;
+      .news-item__text{
+        margin-top: 25px;
+        font-size: 15px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.33;
+        letter-spacing: normal;
+        text-align: left;
+        color: #333333;
+      }
+      span{
+        margin-top: 23px;
+        display: inline-block;
+        font-size: 10px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.1;
+        letter-spacing: normal;
+        text-align: left;
+        color: #8d8d8d;
+      }
+      h3{
+        top: 180px;
+        position: absolute;
+        display: inline-block;
+        font-size: 16px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: condensed;
+        line-height: 1.19;
+        letter-spacing: -1px;
+        text-align: right;
+        color: #a02d25;
+        right: 0px;
+      }
+      img{
+        display: inline-block;
+        width: 100%;
+      }
+    }
+  }
+
+  .more-ads {
+    text-align: center;
+    margin-bottom: 13px;
+  }
+
+  .gray-section {
+    width: 100%;
+    height: 17px!important;
+    background-color: #f9f9f9;
+    margin-bottom: 25px;
+  }
+
+  /*!NEWS*/
 
 }
 
@@ -2194,6 +2342,78 @@
   }
   /*!CATALOG*/
 
+
+  /*NEWS*/
+
+  .gray-section-news{
+    height: 17px;
+  }
+
+  .news-block{
+    display: none;
+  }
+
+  .news-block-slider{
+    display: block;
+  }
+
+  .news-block-slider{
+    width: 690px;
+    margin: 0 auto;
+    .news-item{
+      position: relative;
+      margin-right: 15px;
+      margin-left: 15px;
+      margin-bottom: 48px;
+      .news-item__text{
+        margin-top: 35px;
+        font-size: 15px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.33;
+        letter-spacing: normal;
+        text-align: left;
+        color: #333333;
+      }
+      span{
+        margin-top: 17px;
+        display: inline-block;
+        font-size: 10px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.1;
+        letter-spacing: normal;
+        text-align: left;
+        color: #8d8d8d;
+      }
+      h3{
+        top: 207px;
+        position: absolute;
+        display: inline-block;
+        font-size: 16px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: condensed;
+        line-height: 1.19;
+        letter-spacing: -1px;
+        text-align: right;
+        color: #a02d25;
+        right: 0px;
+      }
+      img{
+        display: inline-block;
+        width: 100%;
+      }
+    }
+  }
+
+  .more-ads{
+    margin-bottom: 26px;
+  }
+
+  /*!NEWS*/
 
 
 
