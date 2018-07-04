@@ -556,6 +556,49 @@
 
   /*!BRANDS-INDEX*/
 
+  /*AUTORISATION*/
+
+  .autorisation-block .autorisation-social{
+    flex-direction: column;
+    align-items: center;
+    margin-top: 32px;
+    margin-bottom: 0px;
+  }
+
+  .autorisation-block .autorisation-social .autorisation-social--item{
+    margin-bottom: 20px;
+  }
+
+  .autorisation-page-tittle{
+    margin-left: 6px;
+    margin-top: 17px;
+  }
+
+  .autorisation-block h3{
+    margin-top: 5px;
+  }
+
+  .proposal-for-registration{
+    flex-direction: column;
+  }
+
+  .proposal-for-registration{
+    margin-bottom: 38px;
+  }
+
+  .autorisation-page-tittle:after {
+    content: "";
+    position: absolute;
+    height: 1px;
+    width: 58px;
+    background-color: #e1e1e1;
+    bottom: -27px;
+    transform: translate(50%, 0);
+    right: 50%;
+  }
+
+  /*!AUTORISATION*/
+
 }
 
 // Small devices (landscape phones, 576px and up)
@@ -1112,12 +1155,56 @@
   }
 
   /*!BRANDS-INDEX*/
+
+  /*AUTORISATION*/
+
+  .autorisation-block .autorisation-social{
+    flex-direction: column;
+    align-items: center;
+    margin-top: 32px;
+    margin-bottom: 0px;
+  }
+
+  .autorisation-block .autorisation-social .autorisation-social--item{
+    margin-bottom: 20px;
+  }
+
+  .autorisation-page-tittle{
+    margin-left: 6px;
+    margin-top: 17px;
+  }
+
+  .autorisation-block h3{
+    margin-top: 5px;
+  }
+
+  .proposal-for-registration{
+    flex-direction: column;
+  }
+
+  .proposal-for-registration{
+    margin-bottom: 38px;
+  }
+
+  .autorisation-page-tittle:after {
+    content: "";
+    position: absolute;
+    height: 1px;
+    width: 58px;
+    background-color: #e1e1e1;
+    bottom: -27px;
+    transform: translate(50%, 0);
+    right: 50%;
+  }
+
+  /*!AUTORISATION*/
+
+
 }
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) and (max-width: 991.98px) {
 /*INDEX*/
-/*!INDEX*/
   .logo-block{
     width: 152px;
     margin-top: 23px;
@@ -1616,9 +1703,138 @@
     margin-top: 32px;
   }
 
-
-
   /*!BRANDS-INDEX*/
+
+  /*AUTORISATION*/
+
+  .autorisation-page-tittle{
+    text-align: center;
+    margin-left: 0px;
+    margin-top: 26px;
+  }
+
+  .autorisation-block h2{
+    margin-top: 27px;
+    font-size: 20px;
+  }
+
+  .autorisation-page-tittle:after {
+    content: "";
+    position: absolute;
+    height: 1px;
+    width: 65px;
+    background-color: #e1e1e1;
+    bottom: -31px;
+    right: 45%;
+  }
+
+  .autorisation-block .autorisation-social .autorisation-social--item {
+    margin-top: 5px;
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 41px;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    width: 204px;
+    height: 41px;
+    border-radius: 25px;
+  }
+
+  .autorisation-block .autorisation-social{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .autorisation-block h3 {
+    margin-top: 37px;
+    margin-bottom: 34px;
+    font-size: 19px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.19;
+    letter-spacing: normal;
+    text-align: center;
+    color: #333333;
+  }
+
+  .autorisation-block .auto-form {
+    padding-right: 141px;
+    padding-left: 142px;
+    background-color: #f2f2f2;
+    padding-top: 50px;
+    padding-bottom: 28px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .autorisation-block .auto-form ul li span{
+    font-size: 20px;
+  }
+
+  .autorisation-block .auto-form ul li{
+    margin-bottom: 69px;
+  }
+
+  .autorisation-block .auto-form a {
+    display: inline-block;
+    margin-bottom: 18px;
+    font-size: 13px;
+    font-weight: 500;
+    font-style: italic;
+    font-stretch: normal;
+    line-height: 1.18;
+    letter-spacing: normal;
+    text-align: left;
+    color: #333333;
+    text-decoration: none;
+    margin-top: 15px;
+  }
+
+  .btn--red__enter {
+    font-size: 16px;
+    padding-left: 61px;
+    padding-right: 61px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 5px;
+  }
+
+  .proposal-for-registration a {
+    margin-right: 118px;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 500;
+    font-style: italic;
+    font-stretch: normal;
+    line-height: 1.19;
+    letter-spacing: normal;
+    text-align: left;
+    color: #a02d25;
+    text-decoration: none;
+    position: relative;
+    margin-top: 9px;
+  }
+
+  .proposal-for-registration-h2 {
+    margin-left: 123px;
+    margin-top: 25px;
+    font-size: 20px;
+  }
+
+  .proposal-for-registration{
+    margin-bottom: 30px;
+  }
+
+
+
+  /*!AUTORISATION*/
 
 
 
