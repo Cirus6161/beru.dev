@@ -51,6 +51,27 @@ $('.slider-for').slick({
     fade: true,
     asNavFor: '.slider-nav'
 });
+
+
+$('.search-result-slider').slick({
+    infinite: true,
+    slidesToShow: 2,
+    slidesToScroll: 2,
+    dots: true,
+    arrows: false,
+    responsive:[{
+        breakpoint: 768,
+        settings:{
+            infinite: true,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            dots: true,
+            arrows: false
+        }
+    }]
+});
+
+
 $('.slider-nav').slick({
     slidesToShow: 4,
     slidesToScroll: 1,

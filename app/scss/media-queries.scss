@@ -666,6 +666,28 @@
 
   /*!PRODUCT-INDEX*/
 
+  /*CATALOG*/
+
+  .search-result__block{
+    display: none;
+  }
+  .search-result-slider{
+    display: block;
+    margin-top: 52px;
+  }
+
+  .search-result-slider{
+    width: 270px;
+  }
+
+  .search-result-slider .search-result__item{
+    margin-right: 0px;
+  }
+
+  /*!CATALOG*/
+
+
+
 }
 
 // Small devices (landscape phones, 576px and up)
@@ -1333,6 +1355,29 @@
 
   /*!PRODUCT-INDEX*/
 
+  /*CATALOG*/
+
+  .search-result__block{
+    display: none;
+  }
+  .search-result-slider{
+    display: block;
+    margin-top: 52px;
+  }
+
+  .search-result-slider{
+    width: 270px;
+  }
+
+  .search-result-slider .search-result__item{
+    margin-right: 0px;
+  }
+
+  .gray-section--serch{
+    height: 17px!important;
+  }
+
+  /*!CATALOG*/
 
 }
 
@@ -2100,6 +2145,54 @@
 
 
   /*!PRODUCT-INDEX*/
+
+
+  /*CATALOG*/
+  .search-result__block{
+    display: none;
+  }
+  .search-result-slider{
+    display: block;
+    margin-top: 52px;
+  }
+
+  .gray-section--serch{
+    height: 17px!important;
+  }
+
+  .search-result-slider .search-result__item {
+    margin-right: 20px;
+    position: relative;
+    border: solid 1px #ba352b;
+    margin-left: 20px;
+    margin-bottom: 17px;
+    padding-top: 21px;
+    padding-left: 19px;
+    padding-right: 19px;
+    padding-bottom: 44px;
+    span{
+      font-size: 15px;
+    }
+  }
+
+  .search-result-slider{
+    width: 690px;
+  }
+
+  .search-result-slider .search-result__item .search-result__item--text{
+    font-size: 18px;
+  }
+
+  .search-result-slider .search-result__item img {
+    width: 100%;
+    margin-bottom: 47px;
+  }
+
+  .slick-dots li{
+    width: 6px;
+    height: 6px;
+  }
+  /*!CATALOG*/
 
 
 
