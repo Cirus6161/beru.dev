@@ -3330,6 +3330,12 @@ main {
 .page-tittle {
   text-transform: uppercase; }
 
+.gray-section-brands-index {
+  width: 100%;
+  height: 17px;
+  background-color: #f9f9f9;
+  margin-bottom: 40px; }
+
 /*!BRAND-PAGE*/
 /*MAIN-NEWS*/
 .news-block {
@@ -4841,7 +4847,15 @@ main {
     font-size: 14px; }
   .terms-of-cooperation--bottom__h2 {
     text-align: center !important; }
-  /*!CLIENTS*/ }
+  /*!CLIENTS*/
+  /*BRANDS-INDEX*/
+  .brand-logo-margin {
+    margin-left: 21%; }
+  .brand-description-block p {
+    margin-bottom: 29px; }
+  .brand-logo-padding-bottom {
+    padding-bottom: 3px; }
+  /*!BRANDS-INDEX*/ }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
   /*INDEX*/
@@ -5250,7 +5264,15 @@ main {
     font-size: 14px; }
   .terms-of-cooperation--bottom__h2 {
     text-align: center !important; }
-  /*!CLIENTS*/ }
+  /*!CLIENTS*/
+  /*BRANDS-INDEX*/
+  .brand-logo-margin {
+    margin-left: 21%; }
+  .brand-description-block p {
+    margin-bottom: 29px; }
+  .brand-logo-padding-bottom {
+    padding-bottom: 3px; }
+  /*!BRANDS-INDEX*/ }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
   /*INDEX*/
@@ -5593,7 +5615,17 @@ main {
     font-size: 19px; }
   .delivery p {
     font-size: 18px; }
-  /*!CLIENTS*/ }
+  /*!CLIENTS*/
+  /*BRANDS-INDEX*/
+  .gray-section-brands-index {
+    width: 100%;
+    height: 17px;
+    background-color: #f9f9f9;
+    margin-bottom: 46px; }
+  .brand-description-block p {
+    font-size: 17px;
+    margin-top: 32px; }
+  /*!BRANDS-INDEX*/ }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
   .contacts span {
