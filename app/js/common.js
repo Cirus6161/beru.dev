@@ -105,7 +105,7 @@ $(document).ready(function () {
                 }}
         ]
     });
-    
+
     $('.brands-adaptive-slider').on("init", function () {
 
         setTimeout(function () {
