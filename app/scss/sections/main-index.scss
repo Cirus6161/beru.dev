@@ -410,16 +410,7 @@ main{
     padding-top: 46px;
     padding-left: 28px;
     background-color: #fff;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: row;
-    flex-direction: row;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
+
     a{
       margin-right: 20px;
       flex-basis: 15%;
@@ -713,6 +704,14 @@ main{
 
 .brands-adaptive-slider{
   display: none;
+  width: 690px;
+}
+
+.brands .brands-logo-items a{
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 2px;
+  margin-bottom: 2px;
 }
 
 .brands-wrapper{

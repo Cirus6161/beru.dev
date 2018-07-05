@@ -2642,17 +2642,7 @@ main {
     padding-right: 28px;
     padding-top: 46px;
     padding-left: 28px;
-    background-color: #fff;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: row;
-    flex-direction: row;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between; }
+    background-color: #fff; }
     .brands .brands-logo-items a {
       margin-right: 20px;
       -ms-flex-preferred-size: 15%;
@@ -2897,7 +2887,14 @@ main {
 /*!MMENU-STYLES*/
 /*ADAPTIVE-SLIDERS*/
 .brands-adaptive-slider {
-  display: none; }
+  display: none;
+  width: 690px; }
+
+.brands .brands-logo-items a {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 2px;
+  margin-bottom: 2px; }
 
 .brands-wrapper {
   display: -webkit-box;
@@ -6302,7 +6299,15 @@ main {
   .brands-wrapper {
     display: none; }
   .brands-adaptive-slider {
-    display: block; }
+    display: block;
+    margin: 0 auto;
+    width: 666px; }
+  .brands .brands-logo-items {
+    padding-bottom: 10px; }
+  .brands .brands-logo-items {
+    padding-top: 12px; }
+  .brand-block-text {
+    padding-bottom: 29px; }
   /*!BRANDS*/
   /*CLIENTS*/
   .breadcrumbs-list {

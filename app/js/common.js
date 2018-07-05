@@ -159,7 +159,9 @@ $('.slider-nav').slick({
 $('.brands-adaptive-slider').slick({
     infinite: true,
     slidesToShow: 3,
-    slidesToScroll: 3
+    slidesToScroll: 3,
+    dots: true,
+    arrows: false
 });
 
 
@@ -194,6 +196,10 @@ api.bind('open:start', function() {
 });
 api.bind('close:finish', function() {
     $('.hamburger').removeClass('is-active');
+});
+
+$("#close-menu").on('click', function () {
+   api.close()
 });
 
 
