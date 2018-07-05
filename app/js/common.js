@@ -1,5 +1,11 @@
 $(document).ready(function () {
+    $('.brands-adaptive-slider').on("init", function () {
 
+        setTimeout(function () {
+            $(".brands").slideUp(0);
+
+            console.log("4");
+        }, 1500);
 
     /*SLICK-SLIDER*/
     $('.slider-for').slick({
@@ -106,13 +112,7 @@ $(document).ready(function () {
         ]
     });
 
-    $('.brands-adaptive-slider').on("init", function () {
 
-        setTimeout(function () {
-            $(".brands").slideUp(0);
-
-            console.log("4");
-        }, 1500);
 
 
 
@@ -157,7 +157,7 @@ $(document).ready(function () {
 
 
 
-$("#brands-list, #brands-list-mm, .logo-block").click(function (event) {
+$("#brands-list, #brands-list-mm").click(function (event) {
     event.preventDefault();
     $(".brands").slideToggle();
 });
