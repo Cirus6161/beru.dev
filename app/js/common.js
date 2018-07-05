@@ -71,6 +71,24 @@ $('.search-result-slider').slick({
     }]
 });
 
+$('.staff-slider').slick({
+    infinite: true,
+    slidesToShow: 2,
+    slidesToScroll: 2,
+    dots: true,
+    arrows: false,
+    responsive:[{
+        breakpoint: 768,
+        settings:{
+            infinite: true,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            dots: true,
+            arrows: false
+        }
+    }]
+});
+
 $('.managment-slider').slick({
     infinite: true,
     slidesToShow: 3,
