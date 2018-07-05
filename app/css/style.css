@@ -5367,7 +5367,26 @@ main {
     margin-top: 19px; }
   .staff-form form .small-staff-message {
     margin-bottom: 19px !important; }
-  /*!CONTACTS*/ }
+  /*!CONTACTS*/
+  /*BRANDS*/
+  .brands-wrapper {
+    display: none; }
+  .brands-adaptive-slider {
+    display: block;
+    margin: 0 auto;
+    width: 160px; }
+    .brands-adaptive-slider .slick-dots {
+      bottom: -25px; }
+  .brands-row {
+    margin-left: 0px;
+    margin-right: 0px; }
+  .brands-flex-col {
+    padding-left: 0px;
+    padding-right: 0px; }
+  .brand-block-text {
+    padding-right: 30px;
+    padding-left: 30px; }
+  /*!BRANDS*/ }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
   /*INDEX*/
@@ -6056,7 +6075,26 @@ main {
     width: 37%;
     height: 100%;
     margin-top: 11px; }
-  /*!CONTACTS*/ }
+  /*!CONTACTS*/
+  /*BRANDS*/
+  .brands-wrapper {
+    display: none; }
+  .brands-adaptive-slider {
+    display: block;
+    margin: 0 auto;
+    width: 160px; }
+    .brands-adaptive-slider .slick-dots {
+      bottom: -25px; }
+  .brands-row {
+    margin-left: 0px;
+    margin-right: 0px; }
+  .brands-flex-col {
+    padding-left: 0px;
+    padding-right: 0px; }
+  .brand-block-text {
+    padding-right: 30px;
+    padding-left: 30px; }
+  /*!BRANDS*/ }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
   /*INDEX*/
@@ -6305,9 +6343,12 @@ main {
   .brands .brands-logo-items {
     padding-bottom: 10px; }
   .brands .brands-logo-items {
-    padding-top: 12px; }
+    padding-top: 26px; }
   .brand-block-text {
-    padding-bottom: 29px; }
+    padding-bottom: 23px;
+    padding-top: 0px; }
+  .brands-adaptive-slider .slick-dots {
+    bottom: -195px; }
   /*!BRANDS*/
   /*CLIENTS*/
   .breadcrumbs-list {

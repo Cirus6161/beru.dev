@@ -936,6 +936,38 @@
 
   /*!CONTACTS*/
 
+  /*BRANDS*/
+
+  .brands-wrapper{
+    display: none;
+  }
+
+  .brands-adaptive-slider{
+    display: block;
+    margin: 0 auto;
+    width: 160px;
+    .slick-dots{
+      bottom: -25px;
+    }
+  }
+
+  .brands-row{
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .brands-flex-col{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .brand-block-text{
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+
+  /*!BRANDS*/
+
 
 
 }
@@ -1859,6 +1891,38 @@
 
   /*!CONTACTS*/
 
+  /*BRANDS*/
+
+  .brands-wrapper{
+    display: none;
+  }
+
+  .brands-adaptive-slider{
+    display: block;
+    margin: 0 auto;
+    width: 160px;
+    .slick-dots{
+      bottom: -25px;
+    }
+  }
+
+  .brands-row{
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .brands-flex-col{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .brand-block-text{
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+
+  /*!BRANDS*/
+
 }
 
 // Medium devices (tablets, 768px and up)
@@ -2217,11 +2281,16 @@
   }
 
   .brands .brands-logo-items{
-    padding-top: 12px;
+    padding-top: 26px;
   }
 
   .brand-block-text{
-    padding-bottom: 29px;
+    padding-bottom: 23px;
+    padding-top: 0px;
+  }
+
+  .brands-adaptive-slider .slick-dots {
+    bottom: -195px;
   }
 
   /*!BRANDS*/

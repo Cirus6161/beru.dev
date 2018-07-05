@@ -161,7 +161,17 @@ $('.brands-adaptive-slider').slick({
     slidesToShow: 3,
     slidesToScroll: 3,
     dots: true,
-    arrows: false
+    arrows: false,
+    responsive:[
+        {
+            breakpoint: 768,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                dots: true,
+                arrows: false
+            }}
+    ]
 });
 
 
@@ -175,17 +185,20 @@ $('.brands-adaptive-slider').slick({
 
 $("#my-menu").mmenu({
 
-    onClick: {
+    /*onClick: {
         close: true,
         setSelected : false,
-        preventDefault:false
-    },
+        preventDefault:true
+    },*/
     "extensions": [
         "pagedim-black",
         "position-right",
         "theme-black",
         "position-front"
-    ]
+    ],
+    navbars: [{
+        // first navbar options
+    }]
 });
 
 var api = $('#my-menu').data('mmenu');
