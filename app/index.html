@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="libs/slick-1.8.1/slick/slick.css">
     <link rel="stylesheet" href="libs/slick-1.8.1/slick/slick-theme.css">
     <link rel="stylesheet" href="libs/jQuery.mmenu-master/dist/jquery.mmenu.all.css">
+    <link rel="stylesheet" type="text/css" href="libs/fancybox-master/dist/jquery.fancybox.min.css">
     <!--CSS FILE-->
     <link rel="stylesheet" href="css/style.css">
     <!--/CSS FILE-->
@@ -46,7 +47,7 @@
                         </div>
                     </div>
                     <div class="col-lg-2 col-md col-md-dn">
-                        <a href="" class="btn btn--red top-header__btn--red">Заказать звонок</a>
+                        <a href="#call-back" class="btn btn--red top-header__btn--red js-pop">Заказать звонок</a>
                     </div>
                     <div class="col-lg-2 col-md">
                         <a href="autorisation.html" class="btn btn--transparent top-header__btn--transparent"><img src="img/man-user%20(1).svg" class="author-img">Авторизация</a>
@@ -510,11 +511,32 @@
     </div>
     <!--/footer-->
 </div>
+
+<!--MODALS-->
+
+<div id="call-back" class="autorisation-block">
+    <form>
+        <div class="auto-form auto-form-callback">
+            <ul>
+                <li><span>Телефон</span>
+                    <input type="tel">
+                </li>
+
+            </ul>
+            <input type="submit" value="Оставить номер" class="btn btn--red btn--red__enter">
+        </div>
+    </form>
+</div>
+
+<!--!MODALS-->
+
+
 <!--SCRIPTS-->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="libs/slick-1.8.1/slick/slick.min.js"></script>
 <script src="libs/jQuery.mmenu-master/dist/jquery.mmenu.all.js"></script>
 <script src="libs/jquery.nicescroll-3.7.4/jquery.nicescroll.js"></script>
+<script src="libs/fancybox-master/dist/jquery.fancybox.min.js"></script>
 <script src="js/common.js"></script>
 <!--/SCRIPTS-->
 </body>

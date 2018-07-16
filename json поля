@@ -1,0 +1,27 @@
+[
+  {
+    "caption":"Сотрудники",
+    "fields": [
+      {
+        "field":"title",
+        "caption":"Должность"
+      },
+      {
+        "field":"name",
+        "caption":"Имя"
+      },
+      {
+        "field":"image",
+        "caption":"Фото сотрудника",
+        "inputTVtype": "image"
+      }
+    ]
+  }
+]
+
+
+[
+  {"header": "Должность", "dataIndex": "title"},
+  {"header": "Имя", "dataIndex": "name"},
+  {"header": "Фото сотрудника", "dataIndex": "image" "renderer": "this.renderImage"}
+]

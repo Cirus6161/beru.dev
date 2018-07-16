@@ -242,9 +242,13 @@ $("#close-menu, #brands-list-mm").on('click', function () {
 
 /*!MY-MENU*/
 
-/*NICE-SCROLL*/
+/*FANCY-BOX*/
+
+$(document).ready(function(){
+    $('.js-pop').fancybox();
+});
+
+/*!FANCY-BOX*/
 
 
-
-/*!NICE-SCROLL*/
 });

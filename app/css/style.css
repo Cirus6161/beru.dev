@@ -2908,6 +2908,14 @@ main {
   -ms-flex-direction: row;
   flex-direction: row; }
 
+.fancybox-content {
+  padding: 0px; }
+
+.auto-form-callback {
+  margin-bottom: 0px !important; }
+  .auto-form-callback span {
+    font-family: Roboto; }
+
 /*!ADAPTIVE-SLIDERS*/
 .top-footer {
   background-color: #333333;
