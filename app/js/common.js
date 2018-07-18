@@ -213,6 +213,11 @@ $("#my-menu").mmenu({
         setSelected : false,
         preventDefault:true
     },*/
+    navbar: {
+      title: '<img src="img/footer-logo.svg" class="mmenu-logo">'
+    },
+
+
     "extensions": [
         "pagedim-black",
         "position-right",
@@ -235,6 +240,10 @@ api.bind('close:finish', function() {
 $("#close-menu, #brands-list-mm").on('click', function () {
    api.close()
 });
+
+
+
+
 
 
 
